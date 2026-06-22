@@ -5,6 +5,10 @@
 
 .cabecalho {
     padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1b1b1b;
 }
 
 .cartao {
@@ -13,28 +17,38 @@
 }
 
 .cartao-imagem {
-width: 100%;
+    width: 100%;
 }
 
-.cartao-frente, .cartao-verso {
-    width: 200%;
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
 }
 
 
+main {
+    flex: 1;
+}
 
+.cabecalho-link {
+ color: white;
+ text-decoration: none;
 
+}
 
+h1 {
+   color: white;
 
+}
 
+footer {
+   background-color: #1b1b1b ;
+   padding: 15px 25px;
+   color:white;
 
-
-
-
-
-
-
-
-
+}
 
 
 
